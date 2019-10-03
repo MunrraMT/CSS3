@@ -9,4 +9,4 @@ Projeto 01 - Para ver o site, clique [AQUI](https://munrramt.github.io/CSS3/Proj
 
 
 ### Desenvolvido por André Rodrigues.
-### email de contato: andre_santos_t@hotmail.com
+### Email de contato: andre_santos_t@hotmail.com
