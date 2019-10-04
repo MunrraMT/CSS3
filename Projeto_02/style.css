@@ -1,5 +1,6 @@
 * {box-sizing: border-box;}
 body {
+    background-color: #d2d2c1;
     background-image: url(./imagem/fundo.png); 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
