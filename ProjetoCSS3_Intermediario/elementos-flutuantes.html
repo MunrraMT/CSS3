@@ -9,28 +9,44 @@
 
     <style>
     
-    .conteudo {margin: 10px; padding: 0; line-height: 150px; text-align: center;background: blue; color: white; border: 1px solid grey; width: 150px; height: 150px; float: left;}
-    .conteudo1 {float: right; background-color: red;}
-    .conteudo-zero {background-color: red; float: none;}
+    body {padding: 0px;}
+    .conteudo {margin: 10px; padding: 0; line-height: 150px; text-align: center;background: blue; color: white; border: 5px solid red; width: 150px; height: 150px; float: left;}
+    .conteudo1 {float: left; background-color: red;}
+    .conteudo-zero {background-color: red; float: none; width: 150px; height: 150px;}
+    .clear {clear: both;}
+    #principal {border: 5px solid red; background-color: green;}
 
     </style>
 </head>
 <body>
+
     <!--
     <div class="conteudo conteudo-zero">
         Conteudo Zero
-    </div> -->
-    
-    <div class="conteudo">
-        Conteudo 01
     </div>
+    -->
+    <div id="principal">
+        <div class="conteudo">
+            Conteudo 01
+        </div>
 
-    <div class="conteudo">
-        Conteudo 02
-    </div>
+        <div class="conteudo">
+            Conteudo 02
+        </div>
 
-    <div class="conteudo">
-        Conteudo 03
+        <div class="conteudo">
+            Conteudo 03
+        </div>
+
+        <!--
+        <div class="clear">
+        -->
+
+        <p>
+            O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+        </p>
+
+        </div>
     </div>
 
 </body>
