@@ -28,6 +28,7 @@ body {background-color: rgb(235, 235, 235);}
 #categoria {float: left; background-color: #ffffff; margin: 25px 10% 10px 10px; width: 350px; padding: 10px;}
 #categoria h2 {background-color: rgb(196, 196, 196); line-height: 50px; text-align: center;}
 #categoria nav {margin-top: 10px;}
+
 #nav-lateral a {text-decoration: none; padding: 10px; font-weight: bold; text-transform: uppercase; display: block; margin: 0;margin-top: 2px; padding: 0;}
 #nav-lateral a:link, a:visited, a:hover, a:active {color: rgb(255, 217, 0);}
 
