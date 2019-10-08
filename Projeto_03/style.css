@@ -1,0 +1,34 @@
+* {margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; box-sizing: border-box;}
+body {background-color: rgb(235, 235, 235);}
+
+#banner {margin: 0; background-color: rgb(255, 217, 0); height: 150px; text-align: center;}
+#banner h1 {font-size: 50px; line-height: 110px;}
+
+#banner-nav a {text-decoration: none; padding: 10px; font-weight: bold; text-transform: uppercase;}
+#banner-nav a:link {color: #ffffff;}
+#banner-nav a:visited {color: #ffffff;}
+#banner-nav a:hover {color: rgb(255, 217, 0); background-color: #ffffff;}
+#banner-nav a:active {color: #ffffff;}
+
+#principal {margin: 10px 10px 10px 10%; float: left;}
+#principal h2 {color: rgb(255, 217, 0); text-transform: uppercase;}
+#principal section {background-color: #ffffff; margin: 15px; padding: 20px; width: 680px;}
+#principal img {margin: 15px 0}
+#principal p {text-align: justify; margin: 0 0 5px 0;}
+#principal header p {font-style: italic;}
+#principal a {font-weight: bold;}
+#principal a:link, a:visited, a:hover, a:active {color: rgb(255, 217, 0);}
+
+#post-recente {float: left; background-color: #ffffff; margin: 25px 10% 10px 10px; width: 350px; padding: 10px;}
+#post-recente h2 {background-color: rgb(196, 196, 196); line-height: 50px; text-align: center;}
+#post-recente p {margin: 5px;}
+#post-recente a {font-weight: bold;}
+#post-recente a:link, a:visited, a:hover, a:active {color: rgb(255, 217, 0);}
+
+#categoria {float: left; background-color: #ffffff; margin: 25px 10% 10px 10px; width: 350px; padding: 10px;}
+#categoria h2 {background-color: rgb(196, 196, 196); line-height: 50px; text-align: center;}
+#categoria nav {margin-top: 10px;}
+#nav-lateral a {text-decoration: none; padding: 10px; font-weight: bold; text-transform: uppercase; display: block; margin: 0;margin-top: 2px; padding: 0;}
+#nav-lateral a:link, a:visited, a:hover, a:active {color: rgb(255, 217, 0);}
+
+#rodape {background-color: rgb(196, 196, 196); text-align: center; line-height: 70px; margin: 0 10%; clear: both;}
